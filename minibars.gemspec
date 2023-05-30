@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency 'mini_racer', '~> 0.4.0'
+  s.add_dependency 'mini_racer', '~> 0.6.4'
   s.add_dependency 'handlebars-source'
 
   s.add_development_dependency 'rspec', '~> 3.7'
